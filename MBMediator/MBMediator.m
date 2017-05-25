@@ -128,9 +128,9 @@ static MBMediator *mediator;
     method_getReturnType(m, returnType, 512);
 
     if (returnType[0] != 'v') {
-        return YES;
-    } else {
         return NO;
+    } else {
+        return YES;
     }
 
 }
