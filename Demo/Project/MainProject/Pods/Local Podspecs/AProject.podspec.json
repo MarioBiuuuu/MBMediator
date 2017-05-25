@@ -1,0 +1,23 @@
+{
+  "name": "AProject",
+  "version": "0.0.2",
+  "summary": "AProject.",
+  "description": "this is AProject",
+  "homepage": "http://git.oschina.net/TestForGroup/aproject",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://git.oschina.net/TestForGroup/aproject.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "AProject/AProject/**/*.{h,m}",
+  "requires_arc": true
+}

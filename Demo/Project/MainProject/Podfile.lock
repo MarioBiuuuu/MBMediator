@@ -1,0 +1,35 @@
+PODS:
+  - AProject (0.0.2)
+  - AProject_Category (1):
+    - MBMediator
+  - MailProject (1)
+  - MailProject_Category (1):
+    - MBMediator
+  - MBMediator (0.0.4)
+
+DEPENDENCIES:
+  - AProject (from `../AProject/`)
+  - AProject_Category (from `../AProject_Category/`)
+  - MailProject (from `../MailProject/`)
+  - MailProject_Category (from `../MailProject_Category/`)
+
+EXTERNAL SOURCES:
+  AProject:
+    :path: ../AProject/
+  AProject_Category:
+    :path: ../AProject_Category/
+  MailProject:
+    :path: ../MailProject/
+  MailProject_Category:
+    :path: ../MailProject_Category/
+
+SPEC CHECKSUMS:
+  AProject: 9ffeb7af12633ae65a32da8b4354364298c16008
+  AProject_Category: e722431e86c3d6726f58dec656fa20f5bcceb32e
+  MailProject: 8e38ac36c8fdbf67c43507f6b94d2b71297d2e17
+  MailProject_Category: 35ed12ffc2a9ebb7b37e7aeea12e9e3b7bc0dda7
+  MBMediator: 4a292be9c2380530b6538c1597b6a5b6cbe8771a
+
+PODFILE CHECKSUM: 5e1a018ea38e5d25e9584d96d20638532c900d13
+
+COCOAPODS: 1.2.0.beta.1

@@ -1,0 +1,7 @@
+MailProject_Category.xcodeproj/xcuserdata/
+MailProject_Category.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+MailProject_Category.xcodeproj/project.xcworkspace/xcuserdata/

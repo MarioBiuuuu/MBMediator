@@ -1,0 +1,28 @@
+{
+  "name": "AProject_Category",
+  "version": "1",
+  "summary": "AProject_Category.",
+  "description": "this is AProject_Category",
+  "homepage": "http://git.oschina.net/TestForGroup/aproject_category",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://git.oschina.net/TestForGroup/aproject_category.git",
+    "tag": "1"
+  },
+  "source_files": "AProject_Category/AProject_Category/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "MBMediator": [
+
+    ]
+  }
+}

@@ -1,0 +1,1196 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0632EE3C0F4C26C88696E9BD29284930 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0EB4B4C5526018CF1511CA429419EAF7 /* Target_A.h in Headers */ = {isa = PBXBuildFile; fileRef = 657896F44F1D189E7D8A3DE8CF9F15EA /* Target_A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1302069ADCDAD501FC31C4CF1A51C40D /* Target_MailProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4D7E4111D28764D916C7780F1F702D /* Target_MailProject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		23A5DE45214A62B3327D79D90B87CD2E /* AProject_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6F4D9090B374A29CFFA6A03B57C425C /* AProject_Category-dummy.m */; };
+		2780F75691ED06164F045D40F21236B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		293C12E513A2DAAE718CD26A9F6E9499 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56642204BB3E3D38559F52C2BA7439BD /* AViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2E92855A8C79354999572B74728703EC /* MailProject_Category-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C81214E73AB44AE96C2B6F3FC592811A /* MailProject_Category-dummy.m */; };
+		3C8DE87EAEB5CC39FE4520451D04E6F9 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = 989A9982EB2068B6DA83DC62F1A6E009 /* Target_A.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		526B553E6CE8C4EAFF8C78267243DE51 /* MBMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA706C93ED7985C062B698CBFC23955 /* MBMediator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		585768E1177B7653BD59459D281CCD8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		58BA177C8AC8EE899F847650208777CB /* AProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CF698423303B511140FBCFBA4F255A /* AProject-dummy.m */; };
+		674AADAA2A20CC897EE4F7CA49709E5B /* MBMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF86DFE08EFD7A6AC42565988F17A45 /* MBMediator-dummy.m */; };
+		6D78F280AEB22144A63A0C0001BE2E32 /* MailViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A275ABEBFEF14D420EA6D674FC1020B /* MailViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		723B71092A1D447A32AFC7AFA007F184 /* Target_MailProject.h in Headers */ = {isa = PBXBuildFile; fileRef = E1BC000CADA4CB96E471BFFFC061CBC3 /* Target_MailProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E57BB38771D3960D33AC40A8772F110 /* CTMediator+A.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F242E72DC4C6D44E34C5A678E4FEAFA /* CTMediator+A.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		878A2AA71153F989EA142A70152F102F /* CTMediator+MailProject.h in Headers */ = {isa = PBXBuildFile; fileRef = 24774B71927F3732480DEB55CB7A01DA /* CTMediator+MailProject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9212E98DC4CA738BDD9B848B9C69D885 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		98CE57DA2994A64ECE1B3B31E02F1298 /* MailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44833215D39F28B4F091DA49D96F4FAB /* MailViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D180B2A190363945C89D0FD1D3AB698 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BA238AFA61F923E37D05271BE1053FC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E23ED680CE799D34609FC0FB21A4AECA /* MailProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 31781D10C3F72C533AB22FFC7994DD7C /* MailProject-dummy.m */; };
+		E7CFCB1A1F5D6D053E02A66170B45970 /* MBMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = B224CA522E3B4D86844940A9E94B2F43 /* MBMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB9B92F6F5BFE4A53268F47E85FAF8DF /* AViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 452B41FF739CCDC4BEC785D97AF49DA6 /* AViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAE2A0D3133769600009A5FC33FA5B58 /* CTMediator+A.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E95F7BDCC9D0CBB9D1A513F7D7B918E /* CTMediator+A.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FB06FE6DC1E7567C7A9EAD1E96141EB5 /* CTMediator+MailProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D7B514F9FB93B3183996155089CF344 /* CTMediator+MailProject.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FB510C83FCAC570BD29D46827F820E41 /* Pods-MainProject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47172964DD8F27BA3130057D686932DB /* Pods-MainProject-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01DF565CB12DB0CA8FF3123D472289ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625480C6A6194007E6F67035D9275ACC;
+			remoteInfo = MBMediator;
+		};
+		0CA6B553F1FBBE2C595A1309284B8D13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9035C4E710E97BC94EA598219AA8C6E6;
+			remoteInfo = AProject;
+		};
+		4DF45323AC8EDD12295AF98CCEEB6D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC243A84284DB471971FEC907142847D;
+			remoteInfo = MailProject;
+		};
+		51DB1868105C41C66C97A01E2A172327 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 588C9E44B2F0C9F309EADF236F389AF4;
+			remoteInfo = AProject_Category;
+		};
+		AFF64B401D5CCA8A3D7F40C1AE0E45C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625480C6A6194007E6F67035D9275ACC;
+			remoteInfo = MBMediator;
+		};
+		C3FBE63FB2053F4F8F915688E7200588 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625480C6A6194007E6F67035D9275ACC;
+			remoteInfo = MBMediator;
+		};
+		D7774C160F32348D91FC28E3AB47E0DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A11A7F6D25857B7DEDB883A81EDBFC0;
+			remoteInfo = MailProject_Category;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A4D7E4111D28764D916C7780F1F702D /* Target_MailProject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_MailProject.m; sourceTree = "<group>"; };
+		158C0B1472FF2F2104FA2F5C10BE5741 /* MBMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBMediator-prefix.pch"; sourceTree = "<group>"; };
+		1D7B514F9FB93B3183996155089CF344 /* CTMediator+MailProject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+MailProject.m"; sourceTree = "<group>"; };
+		24774B71927F3732480DEB55CB7A01DA /* CTMediator+MailProject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+MailProject.h"; sourceTree = "<group>"; };
+		2DCF3B4B4BE1E47B481D3ED50ED728A1 /* libAProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAProject.a; path = libAProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF86DFE08EFD7A6AC42565988F17A45 /* MBMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBMediator-dummy.m"; sourceTree = "<group>"; };
+		31781D10C3F72C533AB22FFC7994DD7C /* MailProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MailProject-dummy.m"; sourceTree = "<group>"; };
+		376AAEF3CC509D838678A30E1F4C8851 /* AProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AProject.xcconfig; sourceTree = "<group>"; };
+		3A275ABEBFEF14D420EA6D674FC1020B /* MailViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MailViewController.h; sourceTree = "<group>"; };
+		3B73524B90E892DD76EBCF63DEEB83C8 /* MailProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MailProject-prefix.pch"; sourceTree = "<group>"; };
+		3C21E300358A6C90644737FB21FFFF36 /* libPods-MainProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MainProject.a"; path = "libPods-MainProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F242E72DC4C6D44E34C5A678E4FEAFA /* CTMediator+A.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator+A.h"; sourceTree = "<group>"; };
+		40F886BE7B6B1ECB0C159CFCC7774C3C /* AProject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AProject-prefix.pch"; sourceTree = "<group>"; };
+		44833215D39F28B4F091DA49D96F4FAB /* MailViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MailViewController.m; sourceTree = "<group>"; };
+		452B41FF739CCDC4BEC785D97AF49DA6 /* AViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		47172964DD8F27BA3130057D686932DB /* Pods-MainProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MainProject-dummy.m"; sourceTree = "<group>"; };
+		54CF698423303B511140FBCFBA4F255A /* AProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AProject-dummy.m"; sourceTree = "<group>"; };
+		56642204BB3E3D38559F52C2BA7439BD /* AViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		5E95F7BDCC9D0CBB9D1A513F7D7B918E /* CTMediator+A.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+A.m"; sourceTree = "<group>"; };
+		657896F44F1D189E7D8A3DE8CF9F15EA /* Target_A.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
+		6AF135B95806A1F8C982939A9EAF80C7 /* Pods-MainProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainProject-frameworks.sh"; sourceTree = "<group>"; };
+		6B2D60B165F291E97EF630862A7A44ED /* AProject_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AProject_Category-prefix.pch"; sourceTree = "<group>"; };
+		722B8FE3D2FF368B0296E3B84A12A2BB /* libMBMediator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMBMediator.a; path = libMBMediator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E65EB77968406094B30C4D0D9BDC3A /* libAProject_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAProject_Category.a; path = libAProject_Category.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7549CCECE3D5A8110C291346012D8FC4 /* libMailProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMailProject.a; path = libMailProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		91D890181D08AF77D2B3751DB09925DA /* MailProject.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MailProject.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		989A9982EB2068B6DA83DC62F1A6E009 /* Target_A.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		9C1782A30F52E3CE04B5D5D1DF36CF52 /* Pods-MainProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.release.xcconfig"; sourceTree = "<group>"; };
+		A0AF4D8795DB60CE24F41E2A0A3817BA /* Pods-MainProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MainProject-resources.sh"; sourceTree = "<group>"; };
+		A93D4C344CEDFE1A3818FB6E3F65B230 /* Pods-MainProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MainProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B000AEC7CA0CC041C99D58ED46C3CB0C /* MailProject_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MailProject_Category.xcconfig; sourceTree = "<group>"; };
+		B224CA522E3B4D86844940A9E94B2F43 /* MBMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBMediator.h; path = MBMediator/MBMediator.h; sourceTree = "<group>"; };
+		C0B62C9C18AFFC4C47D846733C41FA2A /* AProject_Category.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AProject_Category.xcconfig; sourceTree = "<group>"; };
+		C2C436FC447C252A567E5A0522748890 /* Pods-MainProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MainProject-acknowledgements.plist"; sourceTree = "<group>"; };
+		C4644D3B09D1941EA59BBD1F7877E481 /* MailProject_Category-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MailProject_Category-prefix.pch"; sourceTree = "<group>"; };
+		C81214E73AB44AE96C2B6F3FC592811A /* MailProject_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MailProject_Category-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D28F0F569526C6B3D17408CD474262EB /* Pods-MainProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MainProject-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1BC000CADA4CB96E471BFFFC061CBC3 /* Target_MailProject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_MailProject.h; sourceTree = "<group>"; };
+		E6B54E5B385D57AEB0B551626AE02DE9 /* libMailProject_Category.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMailProject_Category.a; path = libMailProject_Category.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7E032AC21986B165DE42CF83834235 /* MBMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBMediator.xcconfig; sourceTree = "<group>"; };
+		F6F4D9090B374A29CFFA6A03B57C425C /* AProject_Category-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AProject_Category-dummy.m"; sourceTree = "<group>"; };
+		FBA706C93ED7985C062B698CBFC23955 /* MBMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBMediator.m; path = MBMediator/MBMediator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2219E2228C45FA117099900B09C3FD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9212E98DC4CA738BDD9B848B9C69D885 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4612AE8D4F74704E5FE6CE7CBDACCA84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D180B2A190363945C89D0FD1D3AB698 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFF37B99F95D3BC29337CBDCA0DED64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585768E1177B7653BD59459D281CCD8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4FEADC6A965AB6006D5D79224B5DEEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0632EE3C0F4C26C88696E9BD29284930 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD603F24F3BBD45735114C3FEF0927D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2780F75691ED06164F045D40F21236B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BC7117263FEA9968597761DE9A1C52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA238AFA61F923E37D05271BE1053FC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D4213B7ED1EB5944AA6936763B4569 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D16EFBB9BB01DC7BCCE18C836A01DA38 /* Pods-MainProject */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2080FEBF4DE9C14D54D9A645C671F29C /* MailProject_Category */ = {
+			isa = PBXGroup;
+			children = (
+				24774B71927F3732480DEB55CB7A01DA /* CTMediator+MailProject.h */,
+				1D7B514F9FB93B3183996155089CF344 /* CTMediator+MailProject.m */,
+			);
+			name = MailProject_Category;
+			path = MailProject_Category;
+			sourceTree = "<group>";
+		};
+		24DD758B354F1DF7948D5E6416172061 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC7E032AC21986B165DE42CF83834235 /* MBMediator.xcconfig */,
+				2EF86DFE08EFD7A6AC42565988F17A45 /* MBMediator-dummy.m */,
+				158C0B1472FF2F2104FA2F5C10BE5741 /* MBMediator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBMediator";
+			sourceTree = "<group>";
+		};
+		283A315CA9BE309B248C6DE05903F448 /* MailProject */ = {
+			isa = PBXGroup;
+			children = (
+				A9F66902172A00E5C3AA6926283552F3 /* MailProject */,
+				ED05C57FA3E3341D6377CD31A0C14037 /* Support Files */,
+			);
+			name = MailProject;
+			path = ../../MailProject;
+			sourceTree = "<group>";
+		};
+		3316664B3CA658B6ADFCD11EB2113C97 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				376AAEF3CC509D838678A30E1F4C8851 /* AProject.xcconfig */,
+				54CF698423303B511140FBCFBA4F255A /* AProject-dummy.m */,
+				40F886BE7B6B1ECB0C159CFCC7774C3C /* AProject-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/AProject";
+			sourceTree = "<group>";
+		};
+		43642E7F7E1BD66CBDD96B6E8F2B4A67 /* MailProject_Category */ = {
+			isa = PBXGroup;
+			children = (
+				9875AAA0B6D8D110EAAE3B99900FDEE5 /* MailProject_Category */,
+				D5CCD588B4E0AD7C7CB3C1C23D7AE0A5 /* Support Files */,
+			);
+			name = MailProject_Category;
+			path = ../../MailProject_Category;
+			sourceTree = "<group>";
+		};
+		50F99C688C3BBFFE6D057291640813A6 /* AProject */ = {
+			isa = PBXGroup;
+			children = (
+				B98FCCA22F55D10E8C4684FF632F1690 /* AProject */,
+				3316664B3CA658B6ADFCD11EB2113C97 /* Support Files */,
+			);
+			name = AProject;
+			path = ../../AProject;
+			sourceTree = "<group>";
+		};
+		54903CCE2E2323B424FC821A17ECDFBA /* MailProject */ = {
+			isa = PBXGroup;
+			children = (
+				3A275ABEBFEF14D420EA6D674FC1020B /* MailViewController.h */,
+				44833215D39F28B4F091DA49D96F4FAB /* MailViewController.m */,
+				628F8B5FC296ACECB3ACF79155F5C810 /* targets */,
+			);
+			name = MailProject;
+			path = MailProject;
+			sourceTree = "<group>";
+		};
+		628F8B5FC296ACECB3ACF79155F5C810 /* targets */ = {
+			isa = PBXGroup;
+			children = (
+				E1BC000CADA4CB96E471BFFFC061CBC3 /* Target_MailProject.h */,
+				0A4D7E4111D28764D916C7780F1F702D /* Target_MailProject.m */,
+			);
+			name = targets;
+			path = targets;
+			sourceTree = "<group>";
+		};
+		74A41992397F3AD25F93080B293B90A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DCF3B4B4BE1E47B481D3ED50ED728A1 /* libAProject.a */,
+				73E65EB77968406094B30C4D0D9BDC3A /* libAProject_Category.a */,
+				7549CCECE3D5A8110C291346012D8FC4 /* libMailProject.a */,
+				E6B54E5B385D57AEB0B551626AE02DE9 /* libMailProject_Category.a */,
+				722B8FE3D2FF368B0296E3B84A12A2BB /* libMBMediator.a */,
+				3C21E300358A6C90644737FB21FFFF36 /* libPods-MainProject.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7920A7C870C95A9753DECCA1B621397D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0B62C9C18AFFC4C47D846733C41FA2A /* AProject_Category.xcconfig */,
+				F6F4D9090B374A29CFFA6A03B57C425C /* AProject_Category-dummy.m */,
+				6B2D60B165F291E97EF630862A7A44ED /* AProject_Category-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/AProject_Category";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A8FF037642F7ED7B5ED4E4B44000F7E0 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F086182A58C52CD249F4AF6F39721092 /* Pods */,
+				74A41992397F3AD25F93080B293B90A1 /* Products */,
+				01D4213B7ED1EB5944AA6936763B4569 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9875AAA0B6D8D110EAAE3B99900FDEE5 /* MailProject_Category */ = {
+			isa = PBXGroup;
+			children = (
+				2080FEBF4DE9C14D54D9A645C671F29C /* MailProject_Category */,
+			);
+			name = MailProject_Category;
+			path = MailProject_Category;
+			sourceTree = "<group>";
+		};
+		A8FF037642F7ED7B5ED4E4B44000F7E0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50F99C688C3BBFFE6D057291640813A6 /* AProject */,
+				CFE6B32E0349F186BA16D58118766582 /* AProject_Category */,
+				283A315CA9BE309B248C6DE05903F448 /* MailProject */,
+				43642E7F7E1BD66CBDD96B6E8F2B4A67 /* MailProject_Category */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A9F66902172A00E5C3AA6926283552F3 /* MailProject */ = {
+			isa = PBXGroup;
+			children = (
+				54903CCE2E2323B424FC821A17ECDFBA /* MailProject */,
+			);
+			name = MailProject;
+			path = MailProject;
+			sourceTree = "<group>";
+		};
+		AADAE13003AFB533D457A2685B8021FB /* AProject_Category */ = {
+			isa = PBXGroup;
+			children = (
+				F331A46EA959DA144DFD2067448137FB /* AProject_Category */,
+			);
+			name = AProject_Category;
+			path = AProject_Category;
+			sourceTree = "<group>";
+		};
+		B98FCCA22F55D10E8C4684FF632F1690 /* AProject */ = {
+			isa = PBXGroup;
+			children = (
+				BDC142A571D00F6334658727DF429DFA /* AProject */,
+			);
+			name = AProject;
+			path = AProject;
+			sourceTree = "<group>";
+		};
+		BB43E48E8B5F750E8F630FA08F61943E /* MBMediator */ = {
+			isa = PBXGroup;
+			children = (
+				B224CA522E3B4D86844940A9E94B2F43 /* MBMediator.h */,
+				FBA706C93ED7985C062B698CBFC23955 /* MBMediator.m */,
+				24DD758B354F1DF7948D5E6416172061 /* Support Files */,
+			);
+			name = MBMediator;
+			path = MBMediator;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC142A571D00F6334658727DF429DFA /* AProject */ = {
+			isa = PBXGroup;
+			children = (
+				452B41FF739CCDC4BEC785D97AF49DA6 /* AViewController.h */,
+				56642204BB3E3D38559F52C2BA7439BD /* AViewController.m */,
+				C1E823CC197CA635C39086A9F852510C /* Targets */,
+			);
+			name = AProject;
+			path = AProject;
+			sourceTree = "<group>";
+		};
+		C1E823CC197CA635C39086A9F852510C /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				657896F44F1D189E7D8A3DE8CF9F15EA /* Target_A.h */,
+				989A9982EB2068B6DA83DC62F1A6E009 /* Target_A.m */,
+			);
+			name = Targets;
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		CFE6B32E0349F186BA16D58118766582 /* AProject_Category */ = {
+			isa = PBXGroup;
+			children = (
+				AADAE13003AFB533D457A2685B8021FB /* AProject_Category */,
+				7920A7C870C95A9753DECCA1B621397D /* Support Files */,
+			);
+			name = AProject_Category;
+			path = ../../AProject_Category;
+			sourceTree = "<group>";
+		};
+		D16EFBB9BB01DC7BCCE18C836A01DA38 /* Pods-MainProject */ = {
+			isa = PBXGroup;
+			children = (
+				D28F0F569526C6B3D17408CD474262EB /* Pods-MainProject-acknowledgements.markdown */,
+				C2C436FC447C252A567E5A0522748890 /* Pods-MainProject-acknowledgements.plist */,
+				47172964DD8F27BA3130057D686932DB /* Pods-MainProject-dummy.m */,
+				6AF135B95806A1F8C982939A9EAF80C7 /* Pods-MainProject-frameworks.sh */,
+				A0AF4D8795DB60CE24F41E2A0A3817BA /* Pods-MainProject-resources.sh */,
+				A93D4C344CEDFE1A3818FB6E3F65B230 /* Pods-MainProject.debug.xcconfig */,
+				9C1782A30F52E3CE04B5D5D1DF36CF52 /* Pods-MainProject.release.xcconfig */,
+			);
+			name = "Pods-MainProject";
+			path = "Target Support Files/Pods-MainProject";
+			sourceTree = "<group>";
+		};
+		D5CCD588B4E0AD7C7CB3C1C23D7AE0A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B000AEC7CA0CC041C99D58ED46C3CB0C /* MailProject_Category.xcconfig */,
+				C81214E73AB44AE96C2B6F3FC592811A /* MailProject_Category-dummy.m */,
+				C4644D3B09D1941EA59BBD1F7877E481 /* MailProject_Category-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/MailProject_Category";
+			sourceTree = "<group>";
+		};
+		ED05C57FA3E3341D6377CD31A0C14037 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91D890181D08AF77D2B3751DB09925DA /* MailProject.xcconfig */,
+				31781D10C3F72C533AB22FFC7994DD7C /* MailProject-dummy.m */,
+				3B73524B90E892DD76EBCF63DEEB83C8 /* MailProject-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../MainProject/Pods/Target Support Files/MailProject";
+			sourceTree = "<group>";
+		};
+		F086182A58C52CD249F4AF6F39721092 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB43E48E8B5F750E8F630FA08F61943E /* MBMediator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F331A46EA959DA144DFD2067448137FB /* AProject_Category */ = {
+			isa = PBXGroup;
+			children = (
+				3F242E72DC4C6D44E34C5A678E4FEAFA /* CTMediator+A.h */,
+				5E95F7BDCC9D0CBB9D1A513F7D7B918E /* CTMediator+A.m */,
+			);
+			name = AProject_Category;
+			path = AProject_Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48B93F987DFED6EA5C745A8F11164D36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878A2AA71153F989EA142A70152F102F /* CTMediator+MailProject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CE1E685915655F78DAEE5265A59154F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E57BB38771D3960D33AC40A8772F110 /* CTMediator+A.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACAAD0272DA4C1C14A6D4E5977F1D328 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CFCB1A1F5D6D053E02A66170B45970 /* MBMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABB836D7594A1B80ADD1150A894FAC0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D78F280AEB22144A63A0C0001BE2E32 /* MailViewController.h in Headers */,
+				723B71092A1D447A32AFC7AFA007F184 /* Target_MailProject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B551DA9B5B858B400BB0EC756E96AD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9B92F6F5BFE4A53268F47E85FAF8DF /* AViewController.h in Headers */,
+				0EB4B4C5526018CF1511CA429419EAF7 /* Target_A.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		021DFB38DEB0CADEE8DD340E0B6C3EC6 /* Pods-MainProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C662E7B7B7A8B0277D8EFF934D9295C /* Build configuration list for PBXNativeTarget "Pods-MainProject" */;
+			buildPhases = (
+				21B0EBCF91D706CE2C2F6C2D3DB1E037 /* Sources */,
+				A4FEADC6A965AB6006D5D79224B5DEEE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BDC278BBB9439B18F25AE5CFACCB55F /* PBXTargetDependency */,
+				5C8792DA61D86ADE02E4EAD571EF2918 /* PBXTargetDependency */,
+				E73A0D7E905B44C6E9EFE7716F87CCD2 /* PBXTargetDependency */,
+				06B7C7ADDC67C875898FB6706E31BEE3 /* PBXTargetDependency */,
+				90AA1E35D3172D3982B3209E7A50D2E7 /* PBXTargetDependency */,
+			);
+			name = "Pods-MainProject";
+			productName = "Pods-MainProject";
+			productReference = 3C21E300358A6C90644737FB21FFFF36 /* libPods-MainProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		588C9E44B2F0C9F309EADF236F389AF4 /* AProject_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 628EF9279A91C32205FCE6F22D0457E4 /* Build configuration list for PBXNativeTarget "AProject_Category" */;
+			buildPhases = (
+				F46437855E58C30E25180B8073AB70AE /* Sources */,
+				9DFF37B99F95D3BC29337CBDCA0DED64 /* Frameworks */,
+				8CE1E685915655F78DAEE5265A59154F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC434122C2F18D7FB7E58C34FAC031D /* PBXTargetDependency */,
+			);
+			name = AProject_Category;
+			productName = AProject_Category;
+			productReference = 73E65EB77968406094B30C4D0D9BDC3A /* libAProject_Category.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		625480C6A6194007E6F67035D9275ACC /* MBMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C61221B0D6D1BF4A8CCC0029D6F42BE /* Build configuration list for PBXNativeTarget "MBMediator" */;
+			buildPhases = (
+				309FF29DEE13F6B56F32ED7BD62BFF21 /* Sources */,
+				2219E2228C45FA117099900B09C3FD8E /* Frameworks */,
+				ACAAD0272DA4C1C14A6D4E5977F1D328 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBMediator;
+			productName = MBMediator;
+			productReference = 722B8FE3D2FF368B0296E3B84A12A2BB /* libMBMediator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6A11A7F6D25857B7DEDB883A81EDBFC0 /* MailProject_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1901842D4AF34CF683173FB1DCB9B85 /* Build configuration list for PBXNativeTarget "MailProject_Category" */;
+			buildPhases = (
+				81C786F30E8151761FE37B14E9A6AD91 /* Sources */,
+				E8BC7117263FEA9968597761DE9A1C52 /* Frameworks */,
+				48B93F987DFED6EA5C745A8F11164D36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E6E6CF20ECC0DB3F2AD3134904628F7 /* PBXTargetDependency */,
+			);
+			name = MailProject_Category;
+			productName = MailProject_Category;
+			productReference = E6B54E5B385D57AEB0B551626AE02DE9 /* libMailProject_Category.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9035C4E710E97BC94EA598219AA8C6E6 /* AProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2FB4FD0EEFE83DD3B34A0E57FEDCF5C /* Build configuration list for PBXNativeTarget "AProject" */;
+			buildPhases = (
+				D04064F1B4A15C58108FA7A1C3FE8F76 /* Sources */,
+				BDD603F24F3BBD45735114C3FEF0927D /* Frameworks */,
+				F4B551DA9B5B858B400BB0EC756E96AD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AProject;
+			productName = AProject;
+			productReference = 2DCF3B4B4BE1E47B481D3ED50ED728A1 /* libAProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC243A84284DB471971FEC907142847D /* MailProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 022774DD1A8464381D8EAD10C9F39EDB /* Build configuration list for PBXNativeTarget "MailProject" */;
+			buildPhases = (
+				C3E3EAFBD8289984DFAB5B4E5FA834DB /* Sources */,
+				4612AE8D4F74704E5FE6CE7CBDACCA84 /* Frameworks */,
+				DABB836D7594A1B80ADD1150A894FAC0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailProject;
+			productName = MailProject;
+			productReference = 7549CCECE3D5A8110C291346012D8FC4 /* libMailProject.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 74A41992397F3AD25F93080B293B90A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9035C4E710E97BC94EA598219AA8C6E6 /* AProject */,
+				588C9E44B2F0C9F309EADF236F389AF4 /* AProject_Category */,
+				EC243A84284DB471971FEC907142847D /* MailProject */,
+				6A11A7F6D25857B7DEDB883A81EDBFC0 /* MailProject_Category */,
+				625480C6A6194007E6F67035D9275ACC /* MBMediator */,
+				021DFB38DEB0CADEE8DD340E0B6C3EC6 /* Pods-MainProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21B0EBCF91D706CE2C2F6C2D3DB1E037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB510C83FCAC570BD29D46827F820E41 /* Pods-MainProject-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309FF29DEE13F6B56F32ED7BD62BFF21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674AADAA2A20CC897EE4F7CA49709E5B /* MBMediator-dummy.m in Sources */,
+				526B553E6CE8C4EAFF8C78267243DE51 /* MBMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81C786F30E8151761FE37B14E9A6AD91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB06FE6DC1E7567C7A9EAD1E96141EB5 /* CTMediator+MailProject.m in Sources */,
+				2E92855A8C79354999572B74728703EC /* MailProject_Category-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3E3EAFBD8289984DFAB5B4E5FA834DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23ED680CE799D34609FC0FB21A4AECA /* MailProject-dummy.m in Sources */,
+				98CE57DA2994A64ECE1B3B31E02F1298 /* MailViewController.m in Sources */,
+				1302069ADCDAD501FC31C4CF1A51C40D /* Target_MailProject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D04064F1B4A15C58108FA7A1C3FE8F76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BA177C8AC8EE899F847650208777CB /* AProject-dummy.m in Sources */,
+				293C12E513A2DAAE718CD26A9F6E9499 /* AViewController.m in Sources */,
+				3C8DE87EAEB5CC39FE4520451D04E6F9 /* Target_A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46437855E58C30E25180B8073AB70AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A5DE45214A62B3327D79D90B87CD2E /* AProject_Category-dummy.m in Sources */,
+				FAE2A0D3133769600009A5FC33FA5B58 /* CTMediator+A.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06B7C7ADDC67C875898FB6706E31BEE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MailProject;
+			target = EC243A84284DB471971FEC907142847D /* MailProject */;
+			targetProxy = 4DF45323AC8EDD12295AF98CCEEB6D47 /* PBXContainerItemProxy */;
+		};
+		2E6E6CF20ECC0DB3F2AD3134904628F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBMediator;
+			target = 625480C6A6194007E6F67035D9275ACC /* MBMediator */;
+			targetProxy = C3FBE63FB2053F4F8F915688E7200588 /* PBXContainerItemProxy */;
+		};
+		5C8792DA61D86ADE02E4EAD571EF2918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AProject_Category;
+			target = 588C9E44B2F0C9F309EADF236F389AF4 /* AProject_Category */;
+			targetProxy = 51DB1868105C41C66C97A01E2A172327 /* PBXContainerItemProxy */;
+		};
+		8CC434122C2F18D7FB7E58C34FAC031D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBMediator;
+			target = 625480C6A6194007E6F67035D9275ACC /* MBMediator */;
+			targetProxy = AFF64B401D5CCA8A3D7F40C1AE0E45C4 /* PBXContainerItemProxy */;
+		};
+		90AA1E35D3172D3982B3209E7A50D2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MailProject_Category;
+			target = 6A11A7F6D25857B7DEDB883A81EDBFC0 /* MailProject_Category */;
+			targetProxy = D7774C160F32348D91FC28E3AB47E0DB /* PBXContainerItemProxy */;
+		};
+		9BDC278BBB9439B18F25AE5CFACCB55F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AProject;
+			target = 9035C4E710E97BC94EA598219AA8C6E6 /* AProject */;
+			targetProxy = 0CA6B553F1FBBE2C595A1309284B8D13 /* PBXContainerItemProxy */;
+		};
+		E73A0D7E905B44C6E9EFE7716F87CCD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBMediator;
+			target = 625480C6A6194007E6F67035D9275ACC /* MBMediator */;
+			targetProxy = 01DF565CB12DB0CA8FF3123D472289ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		10722DA0E94D7A416D83AC894DF557F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7E032AC21986B165DE42CF83834235 /* MBMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBMediator/MBMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		26FF86A1CE9B73B2F78B19D128529A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376AAEF3CC509D838678A30E1F4C8851 /* AProject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AProject/AProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3110CE76741F3C5A2481DA7D074F5CAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D890181D08AF77D2B3751DB09925DA /* MailProject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MailProject/MailProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47BB68E281D2A1F9F095A72AFC4F93DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C1782A30F52E3CE04B5D5D1DF36CF52 /* Pods-MainProject.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		76B0A519BA8640D21C74547A2D6DE62F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B000AEC7CA0CC041C99D58ED46C3CB0C /* MailProject_Category.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MailProject_Category/MailProject_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7711E302CE1E4941B55A37900FEEAB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B000AEC7CA0CC041C99D58ED46C3CB0C /* MailProject_Category.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MailProject_Category/MailProject_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8B255A68ACB797FCE5B4D5543DD69334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B62C9C18AFFC4C47D846733C41FA2A /* AProject_Category.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AProject_Category/AProject_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		90B4AFA5168F7612665C9564859AD0DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B62C9C18AFFC4C47D846733C41FA2A /* AProject_Category.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AProject_Category/AProject_Category-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1A8CD7B339ECAC159E16BB58D48D3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D890181D08AF77D2B3751DB09925DA /* MailProject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MailProject/MailProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A82DD44B766E2030895F2068EBE0DFA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376AAEF3CC509D838678A30E1F4C8851 /* AProject.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AProject/AProject-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DE82479D1A8617D1E64F6C9903ED3BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC7E032AC21986B165DE42CF83834235 /* MBMediator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MBMediator/MBMediator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE4545C8C3988986FFE6D77FB1911400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93D4C344CEDFE1A3818FB6E3F65B230 /* Pods-MainProject.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		022774DD1A8464381D8EAD10C9F39EDB /* Build configuration list for PBXNativeTarget "MailProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3110CE76741F3C5A2481DA7D074F5CAB /* Debug */,
+				A1A8CD7B339ECAC159E16BB58D48D3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C662E7B7B7A8B0277D8EFF934D9295C /* Build configuration list for PBXNativeTarget "Pods-MainProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4545C8C3988986FFE6D77FB1911400 /* Debug */,
+				47BB68E281D2A1F9F095A72AFC4F93DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		628EF9279A91C32205FCE6F22D0457E4 /* Build configuration list for PBXNativeTarget "AProject_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B255A68ACB797FCE5B4D5543DD69334 /* Debug */,
+				90B4AFA5168F7612665C9564859AD0DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C61221B0D6D1BF4A8CCC0029D6F42BE /* Build configuration list for PBXNativeTarget "MBMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE82479D1A8617D1E64F6C9903ED3BAD /* Debug */,
+				10722DA0E94D7A416D83AC894DF557F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1901842D4AF34CF683173FB1DCB9B85 /* Build configuration list for PBXNativeTarget "MailProject_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7711E302CE1E4941B55A37900FEEAB82 /* Debug */,
+				76B0A519BA8640D21C74547A2D6DE62F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2FB4FD0EEFE83DD3B34A0E57FEDCF5C /* Build configuration list for PBXNativeTarget "AProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26FF86A1CE9B73B2F78B19D128529A40 /* Debug */,
+				A82DD44B766E2030895F2068EBE0DFA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

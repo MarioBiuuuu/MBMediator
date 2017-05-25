@@ -1,0 +1,23 @@
+{
+  "name": "MailProject",
+  "version": "1",
+  "summary": "MailProject.",
+  "description": "this is MailProject",
+  "homepage": "http://git.oschina.net/TestForGroup/mailproject",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://git.oschina.net/TestForGroup/mailproject.git",
+    "tag": "1"
+  },
+  "source_files": "MailProject/MailProject/**/*.{h,m}",
+  "requires_arc": true
+}

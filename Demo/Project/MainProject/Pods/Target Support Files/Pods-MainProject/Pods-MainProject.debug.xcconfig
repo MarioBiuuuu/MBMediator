@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AProject" "${PODS_ROOT}/Headers/Public/AProject_Category" "${PODS_ROOT}/Headers/Public/MBMediator" "${PODS_ROOT}/Headers/Public/MailProject" "${PODS_ROOT}/Headers/Public/MailProject_Category"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/AProject" "$PODS_CONFIGURATION_BUILD_DIR/AProject_Category" "$PODS_CONFIGURATION_BUILD_DIR/MBMediator" "$PODS_CONFIGURATION_BUILD_DIR/MailProject" "$PODS_CONFIGURATION_BUILD_DIR/MailProject_Category"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AProject" -isystem "${PODS_ROOT}/Headers/Public/AProject_Category" -isystem "${PODS_ROOT}/Headers/Public/MBMediator" -isystem "${PODS_ROOT}/Headers/Public/MailProject" -isystem "${PODS_ROOT}/Headers/Public/MailProject_Category"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AProject" -l"AProject_Category" -l"MBMediator" -l"MailProject" -l"MailProject_Category"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods
