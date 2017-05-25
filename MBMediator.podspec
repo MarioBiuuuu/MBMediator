@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
   s.name         = "MBMediator"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "组件化中间层"
   s.description  = <<-DESC
-                    组件化中间层实现，仿CTMediator
+                    组件化中间层实现，仿CTMediator，处理中间层方法返回值为void的问题。
                    DESC
   s.homepage     = "https://github.com/MarioBiuuuu/MBMediator"
   s.license      = "MIT"

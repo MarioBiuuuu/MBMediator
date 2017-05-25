@@ -78,7 +78,12 @@ static MBMediator *mediator;
     if ([target respondsToSelector:action]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-        return [target performSelector:action withObject:params];
+        id returnObject = [target performSelector:action withObject:params];
+        if ([self checReturnVoidSelector:action target:target]) {
+            return nil;
+        } else {
+            return returnObject;
+        }
 #pragma clang diagnostic pop
     } else {
         // 有可能target是Swift对象
@@ -87,7 +92,12 @@ static MBMediator *mediator;
         if ([target respondsToSelector:action]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-            return [target performSelector:action withObject:params];
+            id returnObject = [target performSelector:action withObject:params];
+            if ([self checReturnVoidSelector:action target:target]) {
+                return nil;
+            } else {
+                return returnObject;
+            }
 #pragma clang diagnostic pop
         } else {
             // 这里是处理无响应请求的地方，如果无响应，则尝试调用对应target的notFound方法统一处理
@@ -95,7 +105,12 @@ static MBMediator *mediator;
             if ([target respondsToSelector:action]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-                return [target performSelector:action withObject:params];
+                id returnObject = [target performSelector:action withObject:params];
+                if ([self checReturnVoidSelector:action target:target]) {
+                    return nil;
+                } else {
+                    return returnObject;
+                }
 #pragma clang diagnostic pop
             } else {
                 // 这里也是处理无响应请求的地方，在notFound都没有的时候，这个demo是直接return了。实际开发过程中，可以用前面提到的固定的target顶上的。
@@ -105,6 +120,21 @@ static MBMediator *mediator;
         }
     }
 }
+
+/** 检测方法返回值是否为void */
+- (BOOL)checReturnVoidSelector:(SEL)aSelector target:(NSObject *)target {
+    Method m = class_getInstanceMethod([target class], aSelector);
+    char returnType[512];
+    method_getReturnType(m, returnType, 512);
+
+    if (returnType[0] != 'v') {
+        return YES;
+    } else {
+        return NO;
+    }
+
+}
+
 /** 释放缓存 */
 - (void)releaseCachedTargetWithTargetName:(NSString *)targetName {
     NSString *targetClassString = [NSString stringWithFormat:@"Target_%@", targetName];
