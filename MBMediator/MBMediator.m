@@ -67,7 +67,7 @@ static MBMediator *mediator;
     SEL action = NSSelectorFromString(actionString);
     
     if (target == nil) {
-
+        
         return nil;
     }
     
@@ -78,11 +78,11 @@ static MBMediator *mediator;
     if ([target respondsToSelector:action]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-        id returnObject = [target performSelector:action withObject:params];
         if ([self checReturnVoidSelector:action target:target]) {
+            [target performSelector:action withObject:params];
             return nil;
         } else {
-            return returnObject;
+            return [target performSelector:action withObject:params];
         }
 #pragma clang diagnostic pop
     } else {
@@ -92,11 +92,11 @@ static MBMediator *mediator;
         if ([target respondsToSelector:action]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-            id returnObject = [target performSelector:action withObject:params];
             if ([self checReturnVoidSelector:action target:target]) {
+                [target performSelector:action withObject:params];
                 return nil;
             } else {
-                return returnObject;
+                return [target performSelector:action withObject:params];
             }
 #pragma clang diagnostic pop
         } else {
@@ -105,11 +105,11 @@ static MBMediator *mediator;
             if ([target respondsToSelector:action]) {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-                id returnObject = [target performSelector:action withObject:params];
                 if ([self checReturnVoidSelector:action target:target]) {
+                    [target performSelector:action withObject:params];
                     return nil;
                 } else {
-                    return returnObject;
+                    return [target performSelector:action withObject:params];
                 }
 #pragma clang diagnostic pop
             } else {
@@ -126,13 +126,13 @@ static MBMediator *mediator;
     Method m = class_getInstanceMethod([target class], aSelector);
     char returnType[512];
     method_getReturnType(m, returnType, 512);
-
+    
     if (returnType[0] != 'v') {
         return NO;
     } else {
         return YES;
     }
-
+    
 }
 
 /** 释放缓存 */
